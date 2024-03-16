@@ -1,0 +1,139 @@
+.Section__devs {
+    margin-top: 150px;
+}
+
+.Section__devs__div {
+    width: 100%;
+}
+
+.devs__title {
+    font-family: "Roboto";
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #12100C;
+}
+
+
+.devs__list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 44px;
+    
+}
+
+.devs__item {
+    max-width: 384px;
+    width: 100%;
+    // height: 248px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 5px 15px;
+}
+
+.devs__title2 {
+    max-width: 322px;
+    width: 100%;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #12100C;
+}
+
+.devs__text {
+    max-width: 329px;
+    width: 100%;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #12100C;
+}
+
+.item__text {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #12100C;
+}
+
+.span__item {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #12100C;
+}
+
+.item__dev {
+    display: flex;
+    gap: 12px;
+}
+
+.Devc__item__img {
+    margin-top: -45px;
+}
+
+.Devc__item__img2 {
+    margin-top: -15px;
+}
+.devs__logo{
+    max-width: 1100px;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.devs__logo2{
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media screen and (max-width:1030px){
+    .devs__list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .devs__title{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:681px){
+    .devs__list{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .devs__logo{
+        margin-left: 104px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .devs__logo2{
+        text-align: center;
+        flex-direction: column;
+        margin-left: 104px;
+    }
+    .devs__title{
+        font-size: 30px;
+        line-height: 44px;
+    }
+}

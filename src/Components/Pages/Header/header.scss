@@ -1,0 +1,86 @@
+.header__div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    gap: 48px;
+}
+
+.header__link {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #12100CB2;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        color: coral;
+        text-decoration: underline;
+
+    }
+}
+.header__span{
+    color: coral;
+}
+
+.Btn__menu{
+    display: none;
+    border: none;
+    background-color: none;
+}
+
+.header__list2{
+    display: none;
+    position: absolute;
+    max-width: 320px;
+    height: 100px;
+    background-color: #FFF;
+    // color: black;
+    top: 10px;
+    border-radius: 15px;
+    text-align: left;
+    gap: 25px;
+    padding: 10px;
+    right: 150px;
+}
+.heacder__list22{
+    display: block;
+    position: absolute;
+    max-width: 320px;
+    height: 100px;
+    background-color: #FFF;
+    // color: black;
+    top: 10px;
+    border-radius: 15px;
+    text-align: left;
+    gap: 25px;
+    padding: 10px;
+    right: 5px;
+    z-index: 10;
+}
+.btnlar{
+    border: none;
+    background-color: none;
+    margin-left: 80px;
+}
+
+@media  screen and (max-width:1017px){
+.header__list{
+    gap: 25px;
+}
+}
+@media screen and (max-width:804px){
+    .header__list{
+        display: none;
+    }
+    .Btn__menu{
+        display: block;
+        cursor: pointer;
+    }
+}
